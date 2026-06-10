@@ -66,12 +66,9 @@ A simplified flow is:
 ```text
 .
 ├── public/                  # Browser UI and frontend logic
-├── services/                # Intent routing, planning and backend services
 ├── profiles/                # LawVoice assistant profiles
 ├── scripts/                 # Setup and helper scripts
-├── ops/monitoring/          # Monitoring configuration
 ├── docs/                    # Project documentation
-├── __tests__/               # Automated tests
 ├── server.js                # Main Express backend
 ├── docker-compose.yml       # Application and monitoring services
 ├── package.json             # Node.js dependencies and scripts
